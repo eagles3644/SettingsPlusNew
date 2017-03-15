@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">SettingsPlus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="settings">Settings</string>
+    <string name="profiles">Profiles</string>
+    <string name="quick_settings">Custom Quick Settings Tiles</string>
+    <string name="logs">Logs</string>
+    <string name="purchase">Purchase</string>
+    <string name="store">Store</string>
+    <string name="main_banner_ad_id">ca-app-pub-6909068111618447/8696379812</string>
+    <string name="broadcast_tile_show_button">Show Tile</string>
+    <string name="broadcast_tile_hide_button">Hide Tile</string>
+    <string name="no_logs_text">No Logs Exist!</string>
+    <string name="nothing_to_see">Nothing to see here&#8230;</string>
+    <string name="triggers">Triggers</string>
+    <string name="pref_cat_general">General</string>
+    <string name="title_pref_num_logs">Change Log Storage</string>
+    <string name="summary_pref_num_logs">This will allow you to choose how many Change Log rows will be stored in the log screen.</string>
+    <string name="dialogTitle_pref_num_logs">Logs rows to store:</string>
+    <string name="scheduled_reboots">Scheduled Reboots</string>
+    <string name="root_check">Root Checker</string>
+    <string name="what_is_root">Rooting is the Android equivalent of jailbreaking, a means of unlocking the operating system so you can install unapproved (by Google) apps, update the OS, replace the firmware, overclock (or underclock) the processor, customize just about anything, and so on.</string>
+    <string name="what_is_root_title">What is rooting?</string>
+    <string name="buy_ad_free">Purchase ad Free</string>
+    <string name="buy_ad_free_desc">Tired of the annoying ads? Simply purchase the ad free option to avoid those annoying ads while using this application.</string>
+    <string name="ad_free">Ad Free</string>
+    <string name="check_root_status">Check for Root Access Now</string>
+    <string name="full_root_desc">Full Root Explanation</string>
+    <string name="pref_cat_logging">Logging</string>
+    <string name="title_pref_log_profile">Profile Change Logging</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="title_pref_log_reboot">Device Reboot Logging</string>
+    <string name="device_info">Device Info</string>
+    <string name="title_activity_edit_tile_actvity">Edit Tile</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_tile">Edit Tile</string>
+    <string name="edit_tile_default_title"> Blob</string>
+    <string name="edit_tile_icon_title">Icon</string>
+    <string name="edit_tile_icon_desc">The icon to be shown for the custom tile.</string>
+    <string name="edit_tile_title_title">Title</string>
+    <string name="edit_tile_title_desc">The title to be shown for the custom tile.</string>
+    <string name="edit_tile_click_action_title">Click Action</string>
+    <string name="edit_tile_click_action_desc">The action to perform when clicking the custom tile.</string>
+    <string name="edit_tile_long_click_action_title">Long Click Action</string>
+    <string name="edit_tile_long_click_action_desc">The action to perform when long clicking the custom tile.</string>
+    <string name="edit_unlock_prompt_title">Unlock Prompt</string>
+    <string name="edit_tile_unlock_prompt_desc">Automatically prompt for device unlock when custom tile is clicked.</string>
+    <string name="edit_collapse_tray_title">Collapse Tray</string>
+    <string name="edit_tile_collapse_tray_desc">Collapse the notification/quick settings tray when custom tile is clicked.</string>
+    <string name="select_app">Select Application</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_icon">Select Icon</string>
+    <string name="no_quick_settings">No custom quick settings tile exist!</string>
+    <string name="tileListItemTitleDefault">Default Title</string>
+    <string name="tileListItemDescDefault">Default Description</string>
+</resources>

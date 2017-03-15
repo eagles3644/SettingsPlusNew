@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootCheckerFragment">
+
+    <RelativeLayout
+        android:id="@+id/rootCheckerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rootCheckerCard"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/log_list_item_padding"
+            card_view:cardCornerRadius="@dimen/cardview_default_radius"
+            card_view:cardElevation="@dimen/cardview_default_elevation"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardBackgroundColor="@android:color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/RootCheckerCardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="26sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+
+                <View
+                    android:id="@+id/RootCheckerCardTitleLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@android:color/transparent"
+                    android:layout_below="@id/RootCheckerCardTitle"/>
+
+                <TextView
+                    android:id="@+id/RootCheckerCardDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@id/RootCheckerCardTitleLine"/>
+
+                <View
+                    android:id="@+id/RootCheckerCardDescLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@android:color/transparent"
+                    android:layout_below="@id/RootCheckerCardDesc"/>
+
+                <Button
+                    android:id="@+id/RootCheckerCardAction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/RootCheckerCardDescLine"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/check_root_status"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:id="@+id/RootCheckerCardLastChecked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/RootCheckerCardDescLine"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rootCheckerWhatIsRootCard"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/log_list_item_padding"
+            card_view:cardCornerRadius="@dimen/cardview_default_radius"
+            card_view:cardElevation="@dimen/cardview_default_elevation"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardBackgroundColor="@android:color/white"
+            android:layout_below="@id/rootCheckerCard">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/rootCheckWhatIsRootTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="26sp"
+                    android:text="@string/what_is_root_title"
+                    android:layout_alignParentTop="true"/>
+
+                <View
+                    android:id="@+id/rootCheckWhatIsRootTitleLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@android:color/transparent"
+                    android:layout_below="@id/rootCheckWhatIsRootTitle"/>
+
+                <TextView
+                    android:id="@+id/rootCheckWhatIsRootDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/what_is_root"
+                    android:layout_below="@id/rootCheckWhatIsRootTitleLine"/>
+
+                <View
+                    android:id="@+id/rootCheckWhatIsRootDescLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@android:color/transparent"
+                    android:layout_below="@id/rootCheckWhatIsRootDesc"/>
+
+                <Button
+                    android:id="@+id/rootCheckLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/rootCheckWhatIsRootDescLine"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/full_root_desc"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

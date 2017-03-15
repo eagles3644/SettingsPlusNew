@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center">
+
+        <ImageView
+            android:id="@+id/chooser_Icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/chooser_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/chooser_Icon"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+            android:gravity="center"/>
+
+</RelativeLayout>

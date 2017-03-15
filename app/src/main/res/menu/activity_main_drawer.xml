@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/NavGroupSettingsPlus">
+        <item android:id="@+id/nav_profiles" android:icon="@drawable/ic_profiles"
+            android:title="@string/profiles" android:checked="true" />
+        <item android:id="@+id/nav_triggers" android:icon="@drawable/ic_triggers"
+            android:title="@string/triggers" />
+        <item android:id="@+id/nav_quick_settings" android:icon="@drawable/ic_quick_settings"
+            android:title="@string/quick_settings" />
+        <item android:id="@+id/nav_scheduled_reboots" android:icon="@drawable/ic_scheduled_reboots"
+            android:title="@string/scheduled_reboots"/>
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/NavGroupTools">
+        <item android:id="@+id/nav_root_checker" android:icon="@drawable/ic_root_checker"
+            android:title="@string/root_check"/>
+        <item android:id="@+id/nav_device_info" android:icon="@drawable/ic_device_info"
+            android:title="@string/device_info"/>
+        <item android:id="@+id/nav_logs" android:icon="@drawable/ic_logs"
+            android:title="@string/logs" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/NavGroupStoreSettings">
+        <item android:id="@+id/nav_store" android:icon="@drawable/ic_store"
+            android:title="@string/store" />
+        <item android:id="@+id/nav_settings" android:icon="@drawable/ic_settings_old"
+            android:title="@string/settings" />
+    </group>
+
+</menu>

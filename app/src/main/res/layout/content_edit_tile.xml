@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dugan.settingsplus.EditTileActivity"
+    tools:showIn="@layout/activity_edit_tile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/editTileIconView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/editTileItemPadding"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/editTileIconTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/editTileTitleTextSize"
+                android:text="@string/edit_tile_icon_title"/>
+
+            <TextView
+                android:id="@+id/editTileIconDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTileIconTitle"
+                android:text="@string/edit_tile_icon_desc"
+                android:textSize="@dimen/editTileDescTextSize"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/editTileIconDivider"
+            android:layout_below="@id/editTileIconView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/editTileTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTileIconView"
+            android:padding="@dimen/editTileItemPadding"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/editTileTitleTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/editTileTitleTextSize"
+                android:text="@string/edit_tile_title_title"/>
+
+            <TextView
+                android:id="@+id/editTileTitleDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTileTitleTitle"
+                android:text="@string/edit_tile_title_desc"
+                android:textSize="@dimen/editTileDescTextSize"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/editTileTitleDivider"
+            android:layout_below="@id/editTileTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/editTileClickActionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTileTitleDivider"
+            android:padding="@dimen/editTileItemPadding"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/editTileClickActionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/editTileTitleTextSize"
+                android:text="@string/edit_tile_click_action_title"/>
+
+            <TextView
+                android:id="@+id/editTileClickActionDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTileClickActionTitle"
+                android:text="@string/edit_tile_click_action_desc"
+                android:textSize="@dimen/editTileDescTextSize"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/editTileClickActionDivider"
+            android:layout_below="@id/editTileClickActionView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/editTileLongClickActionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTileClickActionDivider"
+            android:padding="@dimen/editTileItemPadding"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/editTileLongClickActionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/editTileTitleTextSize"
+                android:text="@string/edit_tile_long_click_action_title"/>
+
+            <TextView
+                android:id="@+id/editTileLongClickActionDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTileLongClickActionTitle"
+                android:text="@string/edit_tile_long_click_action_desc"
+                android:textSize="@dimen/editTileDescTextSize"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/editTileLongClickActionDivider"
+            android:layout_below="@id/editTileLongClickActionView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/editTileUnlockPromptView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTileLongClickActionDivider"
+            android:padding="@dimen/editTileItemPadding"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/editTileUnlockPromptTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/editTileTitleTextSize"
+                android:text="@string/edit_unlock_prompt_title"/>
+
+            <CheckBox
+                android:id="@+id/editTileUnlockPromptCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:checked="false"/>
+
+            <TextView
+                android:id="@+id/editTileUnlockPromptDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTileUnlockPromptTitle"
+                android:text="@string/edit_tile_unlock_prompt_desc"
+                android:textSize="@dimen/editTileDescTextSize"
+                android:layout_toLeftOf="@id/editTileUnlockPromptCheck"
+                android:layout_toStartOf="@id/editTileUnlockPromptCheck"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/editTileUnlockPromptDivider"
+            android:layout_below="@id/editTileUnlockPromptView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/editTileCollapseTrayView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTileUnlockPromptDivider"
+            android:padding="@dimen/editTileItemPadding"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/editTileCollapseTrayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/editTileTitleTextSize"
+                android:text="@string/edit_collapse_tray_title"/>
+
+            <CheckBox
+                android:id="@+id/editTileCollapseTrayCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:checked="true"/>
+
+            <TextView
+                android:id="@+id/editTileCollapseTrayDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTileCollapseTrayTitle"
+                android:text="@string/edit_tile_collapse_tray_desc"
+                android:textSize="@dimen/editTileDescTextSize"
+                android:layout_toLeftOf="@id/editTileCollapseTrayCheck"
+                android:layout_toStartOf="@id/editTileCollapseTrayCheck"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

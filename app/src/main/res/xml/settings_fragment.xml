@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_logging"
+        android:icon="@drawable/ic_settings_old">
+
+        <ListPreference
+            android:key="pref_num_logs"
+            android:title="@string/title_pref_num_logs"
+            android:summary="@string/summary_pref_num_logs"
+            android:entries="@array/entries_pref_num_logs"
+            android:entryValues="@array/entryValues_pref_num_logs"
+            android:dialogTitle="@string/dialogTitle_pref_num_logs"
+            android:defaultValue="50" />
+
+        <SwitchPreference
+            android:key="pref_log_prof"
+            android:title="@string/title_pref_log_profile"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="pref_log_reboot"
+            android:title="@string/title_pref_log_reboot"
+            android:defaultValue="true"
+            android:textOn="@string/on"
+            android:textOff="@string/off"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

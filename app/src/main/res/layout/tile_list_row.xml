@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tileListItemCard"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/log_list_item_padding"
+    card_view:cardCornerRadius="@dimen/cardview_default_radius"
+    card_view:cardElevation="@dimen/cardview_default_elevation"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/log_text_padding">
+
+        <ImageView
+            android:id="@+id/tileListItemIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/tileListIconPadding"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tileListItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tileListItemIcon"
+            android:layout_toEndOf="@id/tileListItemIcon"
+            android:text="@string/tileListItemTitleDefault"
+            android:textColor="@android:color/black"
+            android:singleLine="true"
+            android:paddingTop="@dimen/tileListItemTitlePadding"/>
+
+        <TextView
+            android:id="@+id/tileListItemDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tileListItemIcon"
+            android:layout_toEndOf="@id/tileListItemIcon"
+            android:layout_below="@id/tileListItemTitle"
+            android:text="@string/tileListItemDescDefault"
+            android:singleLine="true"
+            android:paddingTop="@dimen/tileListItemTitlePadding"/>
+
+        <Switch
+            android:id="@+id/tileListItemSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="@dimen/tileListItemSwitchPadding"
+            android:paddingEnd="@dimen/tileListItemSwitchPadding"/>
+
+        <TextView
+            android:id="@+id/tileListItemID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
